@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.clear-fix{
+    clear: both;
+}
+#divisions{
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#divisions h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#divisions .divisions .division{
+    width: 24%;
+    float: left;
+    background-color: white;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#divisions .divisions .division:nth-of-type(6n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#divisions .divisions .division img{
+    width: 100%;
+}
+#divisions .divisions .division p{
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#divisions .divisions .division p.price{
+    color:mediumturquoise;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#divisions .divisions .division span{
+    font-size: 20px!important;
+    margin-right: 20px!important;
+    color: grey!important;
+}
+#divisions .divisions .division .purple1{
+    background-color: purple;
+    color: white;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 340px;
+    right: 0px;
+}
+#divisions .divisions .division .purple2{
+    background-color: purple;
+    color: white;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 340px;
+    right: 0px;
+}
+#divisions .divisions .division .purple3{
+    background-color: purple;
+    color: white;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 340px;
+    right: 0px;
+}
+#divisions .divisions .division .purple4{
+    background-color: purple;
+    color: white;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 340px;
+    right: 0px;
+}
+.purple1 p, .purple2 p, .purple3 p, .purple4 p{
+    padding-top: 15px;
+}
+.icon{
+    text-align: center;
+    color: coral;
+    font-size: 23px;
+}

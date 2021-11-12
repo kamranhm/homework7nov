@@ -1,0 +1,20 @@
+i{
+    color: rgb(243, 111, 111);
+    font-size: 200px;
+    animation-name: move;
+    animation: move 4sn linear;
+    animation-duration: 1s;
+    padding-left: 620px;
+    padding-top: 250px;
+}
+@keyframes move{
+  25%{
+    font-size: 230px;
+  }   
+  75%{
+    font-size: 250px;
+  }
+  100%{
+    font-size: 200px;
+  }
+}

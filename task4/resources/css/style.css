@@ -1,0 +1,102 @@
+.back{
+    background-color: rgb(221, 221, 221);
+    height: 700px;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+body{
+    padding: 30px;
+}
+.m-20{
+    margin-bottom: 20px;
+}
+.item{
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+.info{
+    padding: 120px 0px;
+    width: 40%;
+    float: left;
+}
+.right-wrapper{
+    float: right;
+    width: 55%;
+    padding-top: 120px;
+}
+.idea{
+    display: inline-block;
+    width: 48%;
+    margin-right: 3%;
+    height: 180px;
+    cursor: pointer;
+    box-shadow: rgb(175, 175, 175) 4px 4px;
+}
+.seo{
+    display: inline-block;
+    width: 48%;
+    height: 180px;
+    cursor: pointer;
+    box-shadow: rgb(175, 175, 175) 4px 4px;
+}
+
+.marketing{
+    display: inline-block;
+    width: 48%;
+    margin-right: 3%;
+    height: 180px;
+    cursor: pointer;
+    box-shadow: rgb(175, 175, 175) 4px 4px;
+}
+.development{
+    display: inline-block;
+    width: 48%;
+    height: 180px;
+    cursor: pointer;
+    box-shadow: rgb(175, 175, 175) 4px 4px;
+}
+
+.button{
+    background-color: rgb(146, 111, 179);
+    width: 150px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.button p{
+    padding-top: 17px;
+    font-size: 20px;
+}
+.icon{
+    color: white;
+    background-color: rgb(146, 111, 179);
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    position: relative;
+    left: 135px;
+    top: 45px;
+    text-align: center;
+}
+.right-wrapper p{
+    position: relative;
+    top: 50px;
+    left: 5px;
+}
+.icon i{
+    padding-top: 5px;
+}
+.info h1{
+    font-size: 45px;
+}
+.info h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+.info p{
+    font-size: 20px;
+}

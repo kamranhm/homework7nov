@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+}
+.clearfix{
+    clear: both;
+}
+.item{
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0px;
+    border:2px solid black;
+}
+.m-20{
+    margin-bottom: 20px;
+}
+.logo{
+    float:left;
+    width: 18%;
+    height: 150px;
+}
+.header{
+    float: right;
+    width: 80%;
+    height: 150px;
+}
+
+.photo{
+    float:left;
+    width: 49%;
+    height: 400px;
+}
+.primary{
+    float: right;
+    width: 49%;
+    height: 400px;
+}
+.first{
+    float:left;
+    width: 33%;
+    margin-right: 0.5%;
+}
+.second{
+    float: left;
+    width: 33%;
+    margin-right: 0.5%;
+}
+.third{
+    float: left;
+    width: 33%;
+}
+.app-form{
+    padding:300px 0px
+}
